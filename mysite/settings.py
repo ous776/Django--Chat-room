@@ -31,6 +31,8 @@ INSTALLED_APPS = [
     'base.apps.BaseConfig',
 ]
 
+# AUTH_USER_MODEL = 'base.User'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -41,6 +43,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'mysite.urls'
 
